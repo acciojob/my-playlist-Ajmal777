@@ -1,1 +1,31 @@
-/*  your css code here. If applicable */
+body{
+	background: #cccccc;
+	font-family: sans-serif;
+}
+
+.player_one, .player_two{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	background: white;
+	border-radius: 5px;
+}
+
+.player_two{
+	margin: auto 25%;
+	max-width: 50%;
+	text-align: center;
+}
+
+.player_two audio{
+	width: 100%;
+}
+
+a{
+	margin-bottom: 5px;
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+}
