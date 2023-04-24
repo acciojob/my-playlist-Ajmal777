@@ -20,12 +20,20 @@ body{
 .player_two audio{
 	width: 100%;
 }
-
-a{
+li{
+	list-style-type: none;
 	margin-bottom: 5px;
 }
 
+a{
+	text-decoration-line: none;
+}
+
+
 a:link{
-	text-decoration: none;
 	color: black;
+}
+
+h1, h2{
+	text-align: center;
 }
